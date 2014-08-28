@@ -196,7 +196,7 @@ function woocommerce_globalpay_init() {
         'amount' => $order_total,
         'currency' => get_woocommerce_currency(),
         'merch_txnref' => $txn_ref,
-        'name' => $name,
+        'names' => $name,
         'email_address' => $order->billing_email,
         'phone_number' => $order->billing_phone
       );
